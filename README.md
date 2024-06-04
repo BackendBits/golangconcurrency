@@ -2,7 +2,6 @@
 This repository covers various aspects of concurrency in the Go programming language. Concurrency in Go allows multiple tasks to be executed simultaneously, improving the efficiency and performance of programs. This README provides an overview of the key concepts and synchronization primitives used in Go for concurrent programming.
 
 # Table of Contents
-- [Introduction to Concurrency in Go](/atomic)
 - [Goroutine](/goroutine)
 - [Channel](/channel)
 - [Buffered Channel](/buffered_channel)
