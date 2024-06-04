@@ -21,5 +21,5 @@ func main() {
 		go incrementCounter(&counter, &wg)
 	}
 	wg.Wait()
-	fmt.Println("Final counter value:", atomic.LoadInt32(counter))
+	fmt.Println("Final counter value:", atomic.LoadInt32(&counter))
 }
